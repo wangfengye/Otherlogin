@@ -10,6 +10,7 @@ import javax.annotation.processing.Filer;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.SimpleAnnotationValueVisitor7;
+import javax.lang.model.util.SimpleAnnotationValueVisitor8;
 
 public class WeChatEntryVisitor extends SimpleAnnotationValueVisitor7<Void, Void> {
     private Filer mFiler = null;

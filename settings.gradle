@@ -1,1 +1,1 @@
-include ':app', ':maple-annotations', ':maple-compiler'
+include ':app', ':maple-annotations', ':maple-compiler', ':example'
