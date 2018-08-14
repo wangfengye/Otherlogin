@@ -1,9 +1,7 @@
 apply plugin: 'com.android.library'
-//启用Jitpack 插件
+//use Jitpack
 apply plugin: 'com.github.dcendents.android-maven'
 
-//设置Jitpack发布的Group
-//github账号
 group='com.github.wangfengye'
 
 android {
