@@ -1,0 +1,1 @@
+include ':app', ':maple-annotations', ':maple-compiler'
