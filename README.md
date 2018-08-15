@@ -32,7 +32,7 @@ mianfesst 添加
 ## Use
 初始化
 ```
- WeChatUtil.init("wxe033521045c83e75","cce2c8d2028931062f38b8061a224d38",
+ WeChatUtil.init(appid,appSecret,
                    this.getApplicationContext());
 ```
        

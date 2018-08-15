@@ -33,7 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.github.wangfengye.Otherlogin:app:v0.8'
-    annotationProcessor 'com.github.wangfengye.Otherlogin:maple-compiler:v0.8'
+    implementation 'com.github.wangfengye.Otherlogin:app:v0.9'
+    annotationProcessor 'com.github.wangfengye.Otherlogin:maple-compiler:v0.9'
 
 }
