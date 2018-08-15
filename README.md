@@ -1,5 +1,9 @@
+
 # Otherlogin
-本库的目的是简化接入微信登录,微信分享的操作.
+
+![avatar](https://img.shields.io/badge/Otherlogin-v0.9-green.sv)
+
+> 本库的目的是简化接入微信登录,微信分享的操作.
 
 ## Download
 
