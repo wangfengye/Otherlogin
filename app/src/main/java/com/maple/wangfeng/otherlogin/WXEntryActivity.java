@@ -22,11 +22,15 @@ public class WXEntryActivity extends AppCompatActivity implements IWXAPIEventHan
     public void onSuccess(String info) {
         if (WeChatUtil.getInstance().getLoginCallback() != null)
             WeChatUtil.getInstance().getLoginCallback().onSuccess(info);
+        finish();
+        overridePendingTransition(0, 0);
     }
 
     public void onError(String msg) {
         if (WeChatUtil.getInstance().getLoginCallback() != null)
             WeChatUtil.getInstance().getLoginCallback().onError(msg);
+        finish();
+        overridePendingTransition(0, 0);
     }
 
     public int WX_LOGIN = 1;
@@ -48,8 +52,7 @@ public class WXEntryActivity extends AppCompatActivity implements IWXAPIEventHan
     @Override
     protected void onResume() {
         super.onResume();
-        finish();
-        overridePendingTransition(0, 0);
+
     }
 
 
