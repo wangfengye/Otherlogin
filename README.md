@@ -26,7 +26,6 @@ mianfest 添加
             android:exported="true"
             android:label="wechatCallback"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Translucent">
         </activity>
 
