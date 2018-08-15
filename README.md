@@ -4,9 +4,8 @@
 ## Download
 
 Project gradle添加
-```  maven {
-                   url "https://jitpack.io"
-               }
+```  
+maven { url "https://jitpack.io" }
  ```
                
                
