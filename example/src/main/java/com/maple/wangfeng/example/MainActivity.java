@@ -8,7 +8,7 @@ import com.maple.wangfeng.otherlogin.WXEntryActivity;
 import com.maple.wangfeng.otherlogin.WeChatUtil;
 
 @EntryGenerator(
-        packageName = "com.maple.wangfeng.example",
+        packageName = "com.maple.wangfeng.example.sjabi",
         entryTemplete = WXEntryActivity.class
 )
 public class MainActivity extends AppCompatActivity {
