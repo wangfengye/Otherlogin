@@ -19,7 +19,7 @@ maven { url "https://jitpack.io" }
     annotationProcessor 'com.github.wangfengye.Otherlogin:maple-compiler:v0.9'
 
 ```
-mianfest 添加
+manifest 添加
 ```
 <activity
             android:name=".wxapi.WXEntryActivity"
