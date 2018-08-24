@@ -12,6 +12,7 @@ import java.util.Set;
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
+import javax.lang.model.SourceVersion;
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.element.AnnotationValueVisitor;
@@ -45,6 +46,11 @@ public class MapleProcessor extends AbstractProcessor{
         final Set<Class<? extends Annotation>> annotations = new LinkedHashSet<>();
         annotations.add(EntryGenerator.class);
         return annotations;
+    }
+
+    @Override
+    public SourceVersion getSupportedSourceVersion() {// 指定使用的java版本
+        return SourceVersion.RELEASE_8;
     }
 
     private void scan(RoundEnvironment env, Class<? extends Annotation> annotation,
