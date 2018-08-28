@@ -15,8 +15,8 @@ maven { url "https://jitpack.io" }
                
  moudle gradle 添加
 ```
-    implementation 'com.github.wangfengye.Otherlogin:app:v0.9'
-    annotationProcessor 'com.github.wangfengye.Otherlogin:maple-compiler:v0.9'
+    implementation 'com.github.wangfengye.Otherlogin:app:v1.0'
+    annotationProcessor 'com.github.wangfengye.Otherlogin:maple-compiler:v1.0'
 
 ```
 manifest 添加
